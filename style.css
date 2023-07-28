@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&family=Source+Code+Pro:ital@1&family=Tektur:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&family=Source+Code+Pro:ital,wght@0,600;1,400&family=Tektur:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&family=Oswald:wght@300;700&family=Source+Code+Pro:ital,wght@0,600;1,400&family=Tektur:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+.sidebar{
+    background-color: rgb(222, 210, 210);
+    /* width: 400px; */
+    height: 100%;
+    transition: transform 0.3s ease-in ;
+    position:absolute;
+}
+.sidebar nav{
+    padding: 30px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 18px;
+    font-family:cursive;
+    /* font-size: 14px;
+    font-family: cursive; */
+    padding-top: 9px;
+    padding-bottom: 21px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color:black;
+}
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+    height: 100vh;
+}
+.container{
+    display: flex;
+}
+
+.infocontainer{
+    /* background-color: rgb(248, 125, 238);     */
+    height: 50vh;
+    width: 80vw;
+    margin:90px auto;
+    display: flex;
+    justify-content: space-around;
+    /* position:relative; */
+}
+
+.devinfo{
+    display:flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content:center ;
+    font-family: 'Tektur', cursive;
+    padding-left: 20px;
+
+}
+.Hello{
+    font-size: 2em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.name{
+    font-size: 1.5em;
+    font-weight: bold;
+    /* font-family: 'Source Code Pro', monospace; */
+    /* font-family: 'Tektur', cursive; */
+    /* font-family: 'Source Code Pro', monospace; */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+        
+
+
+
+
+}
+.about{
+    font-size: 2em;
+    margin-top: 10px;
+}
+.moreabout{
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+
+.buttons{
+    margin-top: 16px;
+
+}
+.btn{
+    padding:10px;
+    border-radius: 20px;
+    color: white;
+    background-color:red;
+    /* font-weight: bold; */
+    font-size: 20px;
+    margin:0px 3px;
+    cursor: pointer;
+    /* transition-property: transform ;
+    transition-duration: 0.3s;
+    transition-timing-function:ease ;
+    transition-delay: 0s; */
+
+    transition: transform 0.3s ease 0s;
+}
+
+.btn-sm{
+    font-size: 17px;
+    margin: 10px;
+    padding:5px;
+
+}
+.btn:hover{
+    background-color:white;
+    color:red;
+    /* filter:grayscale(90%); */
+    filter: grayscale(25%);
+    /* box-shadow: skyblue; */
+    transform: translatey(10px);
+}
+
+@keyframes slideInLeft {
+    from{};
+
+    to{};
+    
+}
+.devpic img{
+    height: 50vh;
+    
+
+}
+.devpic img:hover{
+    filter: drop-shadow(100%);
+    cursor: pointer;
+    animation-play-state: running;
+    
+}
+
+.contactform{
+    font-family: 'Oswald', sans-serif;
+    padding: 10px 50px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+
+.contactform h1{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 12px;
+}
+
+.contactform form div{
+    padding: 3px 0px;
+    display: flex;
+    flex-direction: column ;
+}
+.contactform form div input{
+    padding: 5px;
+    margin: 3px 0;
+    border-radius: 5px;
+    width: 20vw;
+    
+}
+
+#emailHelp{
+    font-size: 11px;
+    margin: 1px;
+    color:rgb(140, 140, 210);
+}
+
+
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 20px;
+}
+
+
+/* Blog page */
+.blogcontainer{
+    margin: 10px 50px;
+}
+.blogitem{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 20px;
+
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+}
+p{
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.intro{
+    margin: 50px 80px;
+
+}
+.intro h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 12px;
+}
+
+.intro p{
+    font-family: 'Source Code Pro', monospace;
+    margin: 12px;
+}
+
+.skillcontainer{
+    padding: 12px;
+}
+
+
+.skill{
+    background-color: red;
+    height: 5px;
+    width: 200px;
+    border: 2px solid black;
+    
+}
+
+.skillitems{
+    display: flex;
+    align-items: center;
+
+}
+
+.hundred{
+    width: 200px;
+    background-color: red;
+}
+
+.fifty{
+    width: 100px;
+    background-color: orange;
+}
+
+.twentyfive{
+    width: 50px;
+    background-color: aqua;
+}
+
+.sidebarGo{
+    transform: translate(-400px,0px);
+    position: absolute;
+}
+.hamburger{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    
+}
+.cross{
+    margin-left: 115px;
+}
+/* Responsiveness */
+@media (max-width:900px) {
+    *{
+        /* background-color: red; */
+    }
+    /* .sidebar{
+        transform: translate(-400px,0px);
+        position: absolute;
+    } */
+    /* .devpic{ */
+        /* display: none; */
+    /* } */
+    .infocontainer{
+        flex-wrap: wrap;
+    }
+    .intro,.blogcontainer,.contactform{
+        margin: 40px 10px;
+    }
+    .contactform{
+        padding: 5px 30px;
+
+    }
+    /* .contactform input{
+        width: 500px;
+    } */
+}
