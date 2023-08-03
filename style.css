@@ -288,4 +288,10 @@ p{
     /* .contactform input{
         width: 500px;
     } */
+    @media (max-width:150px) {
+        .cross{
+            padding-right:150px;
+
+        }
+    }
 }
